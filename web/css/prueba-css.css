@@ -1,0 +1,264 @@
+body {
+    background-color: #fff;
+}
+.bg-navbar {
+    background-color: #3f5843;
+    
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav .nav-link.active {
+    font-weight: 500;
+    color: white;
+}
+.navbar-toggler-icon    {
+    background: url(../icons/navbar.png);
+    background-size: 100%;
+}
+.navbar-asticash {
+    justify-content: space-between;
+}
+.boton-menu {
+    border-radius: 0;
+    border: none;
+}
+.boton-menu:focus {
+    box-shadow: none;
+}
+.logo   {
+    padding-top: 0px;
+}
+.inicio-casa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.servicios  {
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+}
+.servicios img {
+    width: 100%;
+}
+.servicios-textos {
+    padding: 10px;
+}
+.servicios-textos h3    {
+    color:#3f5843;
+}
+.servicios a {
+    text-decoration: none;
+    color: #1b1719;
+    position: relative;
+}
+
+.servicios a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #3f5843;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s ease-in-out;
+  }
+  
+  .servicios a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+.contacto  {
+    display: block!important;
+    align-content: right;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social svg {
+    margin-right:10px;
+}
+@media (min-width: 992px) {
+    .social {
+        justify-content: center;
+    }
+    .social svg {
+        margin-right:0px;
+    }
+    .ig svg:hover {
+        fill: #e1306c;
+    }
+    .ln svg:hover {
+        fill: #0077b5;
+    }
+}
+.eslogan    {
+    background-image: url("../img/bg-22.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.eslogan h1    {
+    margin-bottom: 20px;
+    color:#3f5843;
+}
+.btn-contacto {
+    border-radius: 50px;
+    border: 1px;
+    border-color: #3f5843;
+    border: solid;   
+    color:#3f5843;
+    padding: 15px 40px 15px 40px;
+    font-weight: bold;
+}
+.btn-contacto:hover {
+    border-color: #1b1719;
+}
+@media (max-width: 576px) {
+    .btn-contacto {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+.asesoramiento {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.asesoramiento h1 {
+    text-align: left;
+    color: #3f5843;
+}
+.asesoramiento img {
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .asesoramiento-texto {
+        padding-top: 20px;
+    }
+}
+.asesoramiento .row-boton {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .inicio-casa {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .eslogan    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .asesoramiento {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: justify;
+    }
+}
+
+.footer {
+    background-color: #3f5843;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #d4d6d5;
+}
+.footer img {
+    width: 100%;
+}
+.footer-info  {
+    text-align: center;
+    margin:0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.footer-info p  {
+    margin:0;
+}
+.footer-info a {
+    text-decoration: none;
+    color: #d4d6d5;
+    position: relative;
+}
+.footer-social {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+.footer-social a    {
+    margin-left: 15px;
+}
+@media (max-width: 992px) {
+    .footer img {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    .footer-info  {
+        margin-top: 20px;
+    }
+    .footer-social {
+        margin-top:20px;
+        justify-content: center;
+    }
+}
+.quienes-somos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #EDFFF3;
+}
+.perfil-vacio {
+    display: none;
+}
+.perfil {
+    background: #2c3e3208;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid #2c3e3230;
+    padding: 20px;
+    border-radius: 10px;
+}
+.perfil img {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    border-radius: 50%;
+}
+.perfil h4 {
+    margin-top:10px;
+    color:#2c3e32;
+    text-align: center;
+}
+.perfil h6 {
+    color:#3f5843;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .quienes-somos {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .perfil-vacio {
+        display: block;
+    }
+}
+.qs-descrip {
+    padding: 40px 0;
+    text-align: justify;
+}
