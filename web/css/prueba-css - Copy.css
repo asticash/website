@@ -2,18 +2,15 @@ body {
     background-color: #fff;
 }
 .bg-navbar {
-    background-color: #383A46;
+    background-color: #3f5843;
     
 }
 .navbar-nav .nav-link {
     color: white;
 }
-.navbar-nav .nav-link:hover {
-    color: #C3986B;
-}
 .navbar-nav .nav-link.active {
     font-weight: 500;
-    color: #C3986B;
+    color: white;
 }
 .navbar-toggler-icon    {
     background: url(../icons/navbar.png);
@@ -32,9 +29,6 @@ body {
 .logo   {
     padding-top: 0px;
 }
-.sistemas-constructivos {
-    background: white;
-}
 .inicio-casa {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -44,25 +38,19 @@ body {
     width: 100%;
     min-height: 200px;
     height: 100%;
-    background:white;
-}
-.img-mamposteria, .img-steel, .img-madera {
-    width: 100%;
-    height:330px;
-    overflow: hidden;
 }
 .servicios img {
-    height:100%;
+    width: 100%;
 }
 .servicios-textos {
     padding: 10px;
 }
 .servicios-textos h3    {
-    color:#383A46;
+    color:#3f5843;
 }
 .servicios a {
     text-decoration: none;
-    color: #383A46;
+    color: #1b1719;
     position: relative;
 }
 
@@ -72,7 +60,7 @@ body {
     width: 100%;
     height: 2px;
     border-radius: 4px;
-    background-color: #C3986B;
+    background-color: #3f5843;
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -123,18 +111,19 @@ body {
 }
 .eslogan h1    {
     margin-bottom: 20px;
-    color:#383A46;
+    color:#3f5843;
 }
 .btn-contacto {
     border-radius: 50px;
-    border: 3px solid #383A46 !important;
-    color:#383A46;
+    border: 1px;
+    border-color: #3f5843;
+    border: solid;   
+    color:#3f5843;
     padding: 15px 40px 15px 40px;
     font-weight: bold;
 }
 .btn-contacto:hover {
-    border-color: #C3986B !important;
-    color: #C3986B !important;
+    border-color: #1b1719;
 }
 @media (max-width: 576px) {
     .btn-contacto {
@@ -150,7 +139,7 @@ body {
 }
 .asesoramiento h1 {
     text-align: left;
-    color: #383A46;
+    color: #3f5843;
 }
 .asesoramiento img {
     width: 100%;
@@ -181,7 +170,7 @@ body {
 }
 
 .footer {
-    background-color: #383A46;
+    background-color: #3f5843;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #d4d6d5;
@@ -232,15 +221,18 @@ body {
 .quienes-somos {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: white;
+    background: #EDFFF3;
 }
 .perfil-vacio {
     display: none;
 }
 .perfil {
-    background: white;
-    border: 1px solid #C3986B;
+    background: #2c3e3208;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid #2c3e3230;
     padding: 20px;
+    border-radius: 10px;
 }
 .perfil img {
     width: 60%;
@@ -250,11 +242,11 @@ body {
 }
 .perfil h4 {
     margin-top:10px;
-    color:#383A46;
+    color:#2c3e32;
     text-align: center;
 }
 .perfil h6 {
-    color:#C3986B;
+    color:#3f5843;
     text-align: center;
 }
 @media (min-width: 768px) {
@@ -283,26 +275,26 @@ body {
 }
 .btn-enviar {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #383A46;
-    --bs-btn-border-color: #383A46;
+    --bs-btn-bg: #3f5843;
+    --bs-btn-border-color: #3f5843;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #383A46;
-    --bs-btn-hover-border-color: #383A46;
+    --bs-btn-hover-bg: #3f5843;
+    --bs-btn-hover-border-color: #3f5843;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #383A46;
-    --bs-btn-active-border-color: #383A46;
+    --bs-btn-active-bg: #3f5843;
+    --bs-btn-active-border-color: #3f5843;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #383A46;
-    --bs-btn-disabled-border-color: #383A46;
+    --bs-btn-disabled-bg: #3f5843;
+    --bs-btn-disabled-border-color: #3f5843;
 }
 .contact-page .form-group {
     margin: 5px 0;
 }
 .form-control-contacto {
     border-radius: 0;
-    border-color: #383A46;
+    border-color: #3f5843;
 }
 .form-control-contacto:focus {
     box-shadow: 0 0 0 0.1rem rgba(63,88,67,1);
