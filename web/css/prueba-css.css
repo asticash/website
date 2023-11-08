@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    color: #383A46;
 }
 .bg-navbar {
     background-color: #383A46;
@@ -34,12 +35,19 @@ body {
 }
 .sistemas-constructivos {
     background: white;
-}
-.inicio-casa {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+@media (min-width: 768px) {
+    .sistemas-constructivos {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
 .servicios  {
     width: 100%;
     min-height: 200px;
@@ -104,12 +112,12 @@ body {
     .social svg {
         margin-right:0px;
     }
-    .ig svg:hover {
+    /* .ig svg:hover {
         fill: #e1306c;
     }
     .ln svg:hover {
         fill: #0077b5;
-    }
+    } */
 }
 .eslogan    {
     background-image: url("../img/bg-22.png");
@@ -203,7 +211,7 @@ body {
 }
 .footer-info a {
     text-decoration: none;
-    color: #d4d6d5;
+    color: #fff;
     position: relative;
 }
 .footer-social {
@@ -214,6 +222,9 @@ body {
 }
 .footer-social a    {
     margin-left: 15px;
+}
+.footer-social a:hover    {
+    color:#C3986B;
 }
 @media (max-width: 992px) {
     .footer img {
@@ -234,6 +245,7 @@ body {
     padding-bottom: 20px;
     background: white;
 }
+
 .perfil-vacio {
     display: none;
 }
@@ -269,6 +281,7 @@ body {
 .qs-descrip {
     padding: 40px 0;
     text-align: justify;
+    color: #383A46;
 }
 @media (min-width: 768px) {
     .contact-page {
@@ -283,8 +296,8 @@ body {
 }
 .btn-enviar {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #383A46;
-    --bs-btn-border-color: #383A46;
+    --bs-btn-bg: #C3986B;
+    --bs-btn-border-color: #C3986B;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #383A46;
     --bs-btn-hover-border-color: #383A46;
@@ -306,4 +319,56 @@ body {
 }
 .form-control-contacto:focus {
     box-shadow: 0 0 0 0.1rem rgba(63,88,67,1);
+}
+.metodos-constructivos {
+    color: #383A46;
+}
+.metodos-header {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C3986B;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .metodos-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+.h-header {
+    text-align: left;
+}
+.m-mamposteria, .m-steel-frame, .m-madera {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    color:#383A46;
+}
+.m-header {
+    text-align: left;
+}
+
+.m-header, .m-img, .m-txt {
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .m-mamposteria .row div, .m-steel-frame .row div, .m-madera .row div {
+        height:100%;
+    }
+    .m-mamposteria img, .m-steel-frame img, .m-madera img {
+        object-fit: cover;
+    }
+}
+.m-mamposteria img, .m-steel-frame img, .m-madera img {
+    width: 100%;
+}
+.m-vacio {
+    display: block;
+}
+@media (min-width: 768px) {
+    .m-vacio {
+        display: none;
+    }
 }
