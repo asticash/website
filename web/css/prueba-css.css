@@ -220,11 +220,13 @@ body {
     justify-content: end;
     flex-direction: row;
 }
-.footer-social a    {
-    margin-left: 15px;
-}
 .footer-social a:hover    {
     color:#C3986B;
+}
+.footer-links {
+    width: 60px;
+    display: flex;
+    justify-content: space-evenly;
 }
 @media (max-width: 992px) {
     .footer img {
@@ -239,6 +241,7 @@ body {
         margin-top:20px;
         justify-content: center;
     }
+
 }
 .quienes-somos {
     padding-top: 20px;
