@@ -20,7 +20,7 @@ body {
     background: url(../icons/navbar.png);
     background-size: 100%;
 }
-.navbar-asticash {
+.navbar-aplomo {
     justify-content: space-between;
 }
 .boton-menu {
@@ -31,7 +31,7 @@ body {
     box-shadow: none;
 }
 .logo   {
-    padding-top: 0px;
+    padding: 0px;
 }
 .sistemas-constructivos {
     background: white;
@@ -371,4 +371,28 @@ body {
     .m-vacio {
         display: none;
     }
+}
+.contact-vcard  {
+    display: block;
+}
+.contact-vcard  div {
+    margin-bottom: 10px;
+}
+.contact-vcard img  {
+    width: 15px;
+    display: inline-block;
+    border-radius: 0px;
+}
+.contact-vcard p  {
+    display: inline-block;
+    margin:0;
+}
+.contact-vcard a  {
+    display: inline-block;
+    color:#383A46;
+    text-decoration: none;
+}
+.contact-vcard a:hover  {
+    color:#C3986B   ;
+    text-decoration: none;
 }
