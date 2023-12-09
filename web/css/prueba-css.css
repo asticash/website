@@ -133,6 +133,9 @@ body {
     margin-bottom: 20px;
     color:#383A46;
 }
+.eslogan a    {
+    text-decoration: none;
+}
 .btn-contacto {
     border-radius: 50px;
     border: 3px solid #383A46 !important;
@@ -162,6 +165,9 @@ body {
 }
 .asesoramiento img {
     width: 100%;
+}
+.asesoramiento a    {
+    text-decoration: none;
 }
 @media (max-width: 992px) {
     .asesoramiento-texto {
@@ -211,7 +217,7 @@ body {
 }
 .footer-info a {
     text-decoration: none;
-    color: #fff;
+    color: #d4d6d5;
     position: relative;
 }
 .footer-social {
